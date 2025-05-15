@@ -21,37 +21,35 @@ This Django-based web application manages project data and exposes a JSON API. D
 
 ### Installation
 
-1. **Clone the repository:**
-
-```bash
+1. ***Clone the repository:***
 git clone https://github.com/JemimaNaliaka/unhabitat_intern_project.git
 cd unhabitat_intern_project
 
-2. **Create a virtual environment and activate it:**
-
+2. ***Create a virtual environment and activate it:***
 python -m venv env
-source env/bin/activate  # On Windows use: env\Scripts\activate
+source env/bin/activate  # On Windows: env\Scripts\activate
 
-3. **Install dependencies:**
+3. ***Install dependencies:***
 pip install -r requirements.txt
 
-4. **Run migrations:**
+4. ***Run migrations:***
 python manage.py migrate
 
-5. **Start development server**
+5. ***Start the development server:***
 python manage.py runserver
 
-6. **Access the app**
-https://congenial-yodel-wqj5rjwq7qj2gpg9-8000.app.github.dev/update/4/
+6. ***Access the app:***
+Visit:
+[https://congenial-yodel-wqj5rjwq7qj2gpg9-8000.app.github.dev/update/4/](https://congenial-yodel-wqj5rjwq7qj2gpg9-8000.app.github.dev/update/4/)
 
+Or go to `/projects/` for the main project management interface.
 
-**Notes
-Development was done entirely on mobile, so some UI features may be incomplete.
+## Notes
 
-Country, Org Unit, and Theme dropdowns are in progress and currently unpopulated.
+* Development was done entirely on mobile, so some UI features may be incomplete.
+* Country, Org Unit, and Theme dropdowns are in progress and currently unpopulated.
+* You can view and manage projects under `/projects/`.
 
-You can view and manage projects under /projects/.
+## Author
 
-Author
-Jemima Naliaka 
-jemi.ouma@gmail.com
+***Jemima Naliaka***
