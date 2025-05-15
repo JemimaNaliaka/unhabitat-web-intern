@@ -22,8 +22,8 @@ This Django-based web application manages project data and exposes a JSON API. D
 ### Installation
 
 1. ***Clone the repository:***
-git clone https://github.com/JemimaNaliaka/unhabitat_intern_project.git
-cd unhabitat_intern_project
+git clone https://github.com/JemimaNaliaka/unhabitat_web_intern.git
+cd unhabitat_web_intern
 
 2. ***Create a virtual environment and activate it:***
 python -m venv env
